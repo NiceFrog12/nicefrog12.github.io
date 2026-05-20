@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Varela+Round&display=swap');
+
+h1{
+    font-size: 40px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 200;
+}
+h2{
+    font-size: 35px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 200;
+}
+.line__container{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 450px;
+    height: 1px;
+    background-color: #140B0A;
+}
+body{
+    background: linear-gradient(90deg, #EBF4F5, #B5C6E0);
+    min-height: 150vh;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+}
+p{
+    font-size: 30px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    padding: 15px 20px;
+    background:linear-gradient(90deg, #EBF4F5, #B5C6E0);
+}
+.navbar{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.list__language {
+    border: none;
+    background-color: #B5C6E0;
+    font-family: "Varela Round", sans-serif;
+    color: black;
+    scroll-behavior: smooth;
+    font-size: 40px;
+    outline: none;
+    text-align: end;
+}
+.main__first{
+    margin-top: 50px;
+}
+img{
+    max-width: 80vw;
+}
